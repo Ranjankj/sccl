@@ -6,7 +6,8 @@ import sterliteLogo from "../assets/sterlite-logo.png";
 import skipperLogo from "../assets/skipper.png";
 import jyotiLogo from "../assets/jyoti-logo.png";
 import bajajLogo from "../assets/bajaj_logo.png";
-import director1 from "../assets/PP.jpg";
+import ravi from "../assets/raviImg.jpg";
+import samir from "../assets/smairImg.jpg";
 import team from "../assets/team2.png";
 import client from "../assets/client.png";
 import quality from "../assets/quality2.png";
@@ -50,16 +51,16 @@ export const AboutOption = [
 
 export const homeAboutText = {
   text1:
-    "We are SCCL & Associates, a leader in tower detailing, delivering precision, commitment, and quality. Our expertise extends to Transmission Towers, Substation Structures, Monopoles, and Railway Structures, serving clients across various sectors. We are SCCL & Associates, a leader in tower detailing, delivering precision, commitment, and quality. Our expertise extends to Transmission Towers, Substation Structures, Monopoles, and Railway Structures, serving clients across various sectors.",
+    "At SCCL & Associates, we pride ourselves on being at the forefront of tower detailing, where precision meets commitment and quality. With years of expertise in Transmission Towers, Substation Structures, Monopoles, and Railway Structures, we have become a trusted partner for clients across diverse sectors. Our team is dedicated to delivering meticulously detailed designs that ensure the safety and durability of vital infrastructure. ",
   text2:
-    "We are SCCL & Associates, a leader in tower detailing, delivering precision, commitment, and quality. Our expertise extends to Transmission Towers, Substation Structures, Monopoles, and Railway Structures, serving clients across various sectors.",
+    "Whether it’s enhancing existing structures or creating innovative solutions for new projects, we bring unparalleled expertise and a passion for excellence to every endeavor. At SCCL & Associates, we don't just build structures; we build lasting relationships with our clients, grounded in trust, professionalism, and a shared vision for a safer, more connected future.",
 };
 
 export const footerAddress = {
   addressLine1: "A-1914C , Spectrum@Metro , PHASE-1",
   addressLine2: "Noida Sector - 75, Uttar Pradesh- 201304",
   email: "info@scclassociates.in",
-  email2: "ravi@scclassociates.in",
+  email2: "schatterjee@scclassociates.in",
   mobile: "+91-9716361999 / 9818979933",
 };
 
@@ -117,11 +118,11 @@ export const clientsData = [
 export const serviceData = [
   {
     title: "Drafting and Detailing",
-    descLine1: "CAD Drafting Services with Precision and Accuracy",
     descLine2:
       "2D and 3D Drafting for Comprehensive Visualization with Bocad software.",
-    descLine3:
+    descLine1:
       "Detailing of Transmission Line & substation Structures with Attention to Detail ",
+    descLine3: "CAD Drafting Services with Precision and Accuracy",
     path: "https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/3DD9EB/external-transmission-tower-sustainable-energy-flatart-icons-outline-flatarticons.png",
   },
   {
@@ -144,15 +145,16 @@ export const serviceData = [
 export const teamMembers = [
   {
     name: "Samir Chatterjee",
-    photo: director1,
+    photo: samir,
     role: "Co-Founder & Director",
-    bio: "Samir Chatterjee, Co-Founder & Director of Engineering, brings over 30 years of engineering experience, including 20 years at SAE India Limited and roles at Zamil Steel, Tata Power, and KEC International. He leads the company’s engineering strategy, ensuring technical excellence and innovation across all projects, while also mentoring the technical team to foster growth and maintain the company’s reputation for high-quality engineering solutions. His leadership is pivotal in driving the company’s sustained growth.",
+    bio: "Samir Chatterjee, Co-Founder & Director at SCCL & Associates, brings 45 years of rich engineering experience. His distinguished career includes 20 years at SAE India Limited, 3 years at Zamil Steel (Saudi Arabia), 2 years at Tata Power Limited, and 14 years at KEC International Limited. Over the past 5 years at SCCL, he has been instrumental in shaping the company’s engineering strategy, driving innovation, and ensuring technical excellence across all projects. Samir's leadership not only guides the company's sustained growth but also fosters the development of the technical team, upholding SCCL's reputation for delivering high-quality engineering solutions.",
   },
   {
     name: "Ravi Jha",
-    photo: director1,
-    role: "Director",
-    bio: "Ravi Jha, Chief Operating Officer (COO) and Co-Founder, has 8 years of experience with KEC International and Tata Projects. He specializes in optimizing operations and managing complex projects. Ravi oversees the company’s daily operations, ensuring efficiency and successful project execution, contributing significantly to the company’s operational excellence and growth.",
+    photo: ravi,
+    samirto: ravi,
+    role: "Chief Operating Officer(COO)",
+    bio: "Ravi Jha, Chief Operating Officer at SCCL & Associates, has 10 years of industry experience, including 6 years at KEC International Limited and 2 years at Tata Projects Limited. Over the past 2 years, he has played a crucial role at SCCL, where he specializes in optimizing operations and managing complex projects. Ravi oversees daily operations, ensuring efficiency and driving successful project execution. His extensive experience and leadership have been key to the company’s operational excellence, contributing significantly to SCCL’s sustained growth and reputation in the industry.",
   },
 ];
 
@@ -223,5 +225,5 @@ export const contactInfo = {
   address:
     "A-1914C, SPECTRUM @ METRO, PHASE-1, NOIDA, SECTOR - 75, Uttar Pradesh- 201304",
   contactNumbers: ["9716361999", "9818979933"],
-  emails: ["info@scclassociates.in", "ravi@scclassociates.in"],
+  emails: ["info@scclassociates.in", "schatterjee@scclassociates.in"],
 };

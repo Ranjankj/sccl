@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Company Info */}
         <div className="md:col-span-2">
-          <h2 className="text-lg font-semibold mb-4">SCCL & Associates</h2>
+          <h2 className="text-lg font-semibold mb-4">SCCL and Associates</h2>
           <p className="text-lg">Address</p>
           <p> {footerAddress.addressLine1}</p>
           <p>{footerAddress.addressLine2}</p>
@@ -66,11 +66,6 @@ const Footer = () => {
           <h2 className="text-lg font-semibold mb-4">Resources</h2>
           <ul>
             <li className="mb-2">
-              <a href="#faqs" className="hover:underline">
-                FAQs
-              </a>
-            </li>
-            <li className="mb-2">
               <a href="#terms" className="hover:underline">
                 Terms of Service
               </a>
@@ -84,7 +79,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-10 text-center text-sm text-gray-400">
-        &copy; 2024 SCCL & Associates. All rights reserved.
+        &copy; 2024 SCCL and Associates. All rights reserved.
       </div>
     </footer>
   );

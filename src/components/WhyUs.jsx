@@ -9,7 +9,7 @@ const WhyChooseUs = () => {
         <h2 className="text-4xl font-semibold mb-4 text-center">Why SCCL?</h2>
         <p className="text-lg mb-8 px-10 md:px-16 text-center ">
           We stand out for our commitment to excellence, innovation, and
-          client-focused approach. Here’s why you should choose us:
+          client-focused approach.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-1 gap-8 px-16">
           {reasons.map((reason, index) => (

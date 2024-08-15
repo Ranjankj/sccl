@@ -15,7 +15,7 @@ const Team = () => {
               <img
                 src={member.photo}
                 alt={member.name}
-                className="rounded-full w-32 h-32 mb-4"
+                className="rounded-lg w-32 h-32 mb-4"
               />
               <h3 className="text-xl font-semibold">{member.name}</h3>
               <p className="text-blue-400 font-normal text-sm">{member.role}</p>

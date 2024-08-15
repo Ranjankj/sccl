@@ -6,7 +6,7 @@ export const faqData = [
   },
   {
     question: "What software does SCCL & Associates use?",
-    answer: "We use the latest versions of Bocad and AutoCAD for our projects.",
+    answer: "We use the latest versions of Bocad for our projects.",
   },
   {
     question: "Where is SCCL & Associates located?",
@@ -16,7 +16,7 @@ export const faqData = [
   {
     question: "How can I contact SCCL & Associates?",
     answer:
-      "You can reach us at the following contact numbers: 9716361999, 9818979933. You can also email us at sc89662@gmail.com.",
+      "You can reach us at the following contact numbers: 9716361999, 9818979933. You can also email us at info@scclassociates.in & schatterjee@scclassociates.in.",
   },
   {
     question: "What types of structures does SCCL & Associates specialize in?",
