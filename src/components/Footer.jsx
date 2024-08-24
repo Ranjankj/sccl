@@ -9,9 +9,27 @@ const Footer = () => {
         {/* Company Info */}
         <div className="md:col-span-2">
           <h2 className="text-lg font-semibold mb-4">SCCL and Associates</h2>
-          <p className="text-lg">Address</p>
-          <p> {footerAddress.addressLine1}</p>
-          <p>{footerAddress.addressLine2}</p>
+
+          <div className="flex flex-col">
+            <p className="text-lg">Address</p>
+            <p> {footerAddress.addressLine1}</p>
+            <p>
+              {footerAddress.addressLine2}{" "}
+              <a
+                href="https://maps.app.goo.gl/gAjegVKN5yXyeXdt5"
+                target="_blank"
+              >
+                <img
+                  width="20"
+                  height="20"
+                  src="https://img.icons8.com/material-outlined/96/EBA03D/near-me.png"
+                  alt="near-me"
+                  style={{ display: "inline-block" }}
+                />
+              </a>
+            </p>
+          </div>
+
           <br />
           <p className="text-lg">Contact</p>
           <p>{footerAddress.email}</p>
@@ -37,24 +55,32 @@ const Footer = () => {
         <div>
           <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a href="https://facebook.com" target="_blank" rel="noreferrer">
+            {/* <a href="https://facebook.com" target="_blank" rel="noreferrer">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
                 alt="Facebook"
                 className="w-6 h-6"
               />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer">
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
-                alt="Twitter"
-                className="w-6 h-6"
-              />
-            </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            </a> */}
+            <a
+              href="https://www.linkedin.com/company/sccl-and-associates/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/733/733561.png"
                 alt="LinkedIn"
+                className="w-6 h-6"
+              />
+            </a>
+            <a
+              href="https://x.com/scclassociates"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
+                alt="Twitter"
                 className="w-6 h-6"
               />
             </a>

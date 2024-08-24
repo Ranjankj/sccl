@@ -153,8 +153,8 @@ export const teamMembers = [
     name: "Ravi Jha",
     photo: ravi,
     samirto: ravi,
-    role: "Chief Operating Officer(COO)",
-    bio: "Ravi Jha, Chief Operating Officer at SCCL & Associates, has 10 years of industry experience, including 6 years at KEC International Limited and 2 years at Tata Projects Limited. Over the past 2 years, he has played a crucial role at SCCL, where he specializes in optimizing operations and managing complex projects. Ravi oversees daily operations, ensuring efficiency and driving successful project execution. His extensive experience and leadership have been key to the company’s operational excellence, contributing significantly to SCCL’s sustained growth and reputation in the industry.",
+    role: "Executive Director",
+    bio: "Ravi Jha, Executive Director at SCCL & Associates, has 10 years of industry experience, including 6 years at KEC International Limited and 2 years at Tata Projects Limited. Over the past 2 years, he has played a crucial role at SCCL, where he specializes in optimizing operations and managing complex projects. Ravi oversees daily operations, ensuring efficiency and driving successful project execution. His extensive experience and leadership have been key to the company’s operational excellence, contributing significantly to SCCL’s sustained growth and reputation in the industry.",
   },
 ];
 
